@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-image: url(img/override.jpg);
+    background-size: cover;
+    color: rgb(16, 138, 16);
+    scroll-behavior: smooth;
+}
+.todoActivate{
+    height: 20%;
+    width: 15%;
+    float: left;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: rgb(20, 124, 25);
+}
+.todoBox{
+    height: 120%;
+    width: 70%;
+    display: block;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    border-bottom-right-radius: 30px;
+}
+.todoAdderTxt{
+    width: 80%;
+    height: 18%;
+    background-color: rgb(22, 21, 21);
+    color: rgb(20, 124, 25);
+    border: none;
+    font-size: 70%;
+    font-family: 'Orbitron', sans-serif;
+}
+.todoAdder{
+    background-color: rgb(20, 20, 20);
+    color: rgb(20, 124, 25);
+    width: 18%;
+    border: none;
+    height: 18%;
+    border-left: 2px solid rgb(20, 124, 25);
+}
+.todoEntry{
+    width: 100%;
+    height: 15%;
+    font-size: 1.5vw;
+    font-family: 'Orbitron', sans-serif;
+}
+.todoItem{
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: rgb(16, 11, 44);
+    color: rgb(255, 72, 0);
+    font-size: 1.5vw;
+    border: none;
+    margin-top: 1px;
+    border-top: 1px red groove;
+}
+.todoRemove{
+    width: 20%;
+    height: 100%;
+    border: none;
+    float: right;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(199, 43, 43);
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+}
+.nameInput{
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 75%;
+    font-size: 1.7vw;
+    font-family: monospace;
+    border: none;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+    background-color: transparent;
+    /* background-color: rgba(11, 50, 83, 0.582); */
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.updateBtn{
+    float: right;
+    position: relative;
+    height: 100%;
+    width: 35%;
+    font-size: 1.8vw;
+    font-family: monospace;
+    border: none;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+    background-color: transparent;
+    color: rgb(250, 106, 40);
+    font-weight: 600;
+}
+.head{
+    float: left;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    opacity: 0.8;
+    background-size: cover;
+}
+.head h2{
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+.timeDisp{
+    font-size: 4vw;
+    font-family: 'PT Mono', monospace;
+    height: 10%;
+    color: rgb(255, 255, 255);
+}
+.greeting{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Kaushan Script', cursive;
+    background-color: rgb(0,0,0,0.7);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    font-size: 150%;
+}
+#greetQuote{
+    text-align: center;
+    font-family: 'Srisakdi', cursive;
+}

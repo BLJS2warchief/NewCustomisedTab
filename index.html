@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            New Tab
+        </title>
+        <link rel="icon" href="img/titleIcon.jpg">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|PT+Mono|Orbitron|Kaushan+Script|Srisakdi" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+        <script type="text/javascript" src="quotes.json"></script>
+        <script src="index.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="head" id="head">
+            <div style="height:33%">
+                <input type="button" value="Activate TODO List Service" class="todoActivate" id="todoActivate">
+                <div class="todo" id="todo" style="width:30%;height: 90%;float: left; display: none;z-index: 5;opacity: 0.9;;"></div>
+                <div style="width:33.3%;float: right;height:50%";>
+                    <div style="width:100%;height: 30%;top: 0;position: relative;float: left;">
+                        <input type="text" id="nameInput" class="nameInput" placeholder="Your fine name please..">
+                    </div>
+                    <div style="width:100%;height: 28%;top: 0;position: relative;float: left;">
+                        <input type="button" class="updateBtn" id="updateBtn" value="Update">
+                    </div>
+                </div>
+            </div>
+            <div class="greeting">
+                <div style="font-size:15px;font-family:'Indie Flower', cursive;">You know what my favorite time of day is? When I get to say "Hello" to you!<br></div>
+                <h2 id="greeting-name"></h2>
+                <div class="timeDisp" id="timeDisp"></div>
+                <h5 id="greetQuote"></h5>
+            </div>
+        </div>
+    </body>
+</html>

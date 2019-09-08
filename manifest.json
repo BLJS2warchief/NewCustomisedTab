@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "OverRidden",
+  "version": "1.0",
+
+  "description": "Overrides default new tab to something else",
+
+  "icons": {
+    "96": "img/icon-96.jpg"
+  },
+  "permissions": [
+    "history",
+    "storage"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
